@@ -1,11 +1,7 @@
-# BadGIF
-Ever wanted the opposite of what you wanted? BadGIF is a nerve-wracking tool that provides sentiment analysis while also angering people.
-
-## Inspiration
-BadGif is a social experiment to see what would happen to the member’s of your discord server if you constantly sent them bad gifs...
+# MoodMSG
 
 ## What it does
-BadGif reads in user’s messages, uses Google Cloud’s Natural Language API to analyze the sentiment and keywords, and sends back a gif with the complete opposite sentiment. Users are also able to visit the website and view their past messages and sentiments.
+MoodMSG reads in user’s messages, uses Google Cloud’s Natural Language API to analyze the sentiment and keywords sent in a Discord channel. Users are also able to visit the website and view their past messages and sentiments.
 
 ## How we built it
 The Discord bot was built using Discord.py, Google Cloud Natural Language API, MongoDB, Tenor API, Matplotlib, Pandas, and Numpy. The webapp is built using React, Redux, Express, Node, and MongoDB.
